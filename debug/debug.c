@@ -13,9 +13,9 @@
 int debug_init(void)
 {
 #ifdef CFG_DEBUG_ON
-    printf("\r\n>>%s ON", __func__);
+    printf(">>%s ON\r\n", __func__);
 #else
-    printf("\r\n>>%s OFF", __func__);
+    printf(">>%s OFF\r\n", __func__);
 #endif
 
     return 0;

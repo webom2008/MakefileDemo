@@ -13,6 +13,6 @@
 
 int driver_init(void)
 {
-    printf("\r\n>>%s", __func__);
+    printf(">>%s\r\n", __func__);
     return 0;
 }

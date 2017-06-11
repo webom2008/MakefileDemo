@@ -11,13 +11,12 @@
 #include "manager.h"
 
 
-#define DBG(fmt, arg...) printf("[%s] " fmt "\n",__func__, ##arg)
-//#define (fmt, arg...) printf(__FILE__ __LINE__ fmt, ##arg)
-//#define DBG(args...) printf(__FILE__ __LINE__ args)
+#define DBG(fmt, arg...) printf("[%s][%s][%d]" fmt "\r\n",\
+                                __FILE__,__func__, __LINE__, ##arg)
 
 int mw_init(void)
 {
-    DBG("\r\n%s", __func__);
+    DBG("test");
     return 0;
 }
 

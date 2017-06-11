@@ -11,6 +11,6 @@ int main(void)
     driver_init();
     mw_init();
 
-    printf("\r\n>>%s exit", __func__);
+    printf(">>%s exit\r\n", __func__);
     return 0;
 }
